@@ -1,13 +1,13 @@
 import ItemsInFlatList from "@/components/ItemsInFlatList";
 import ItemsInput from "@/components/ItemsInput";
 import TextProvider from "@/components/TextProvider";
-import { Text, View } from "react-native";
+import { ScrollView, Text, View } from "react-native";
 
 export default function Index() {
   return (
     <>
       <TextProvider>
-        <View
+        <ScrollView
           style={{
             flex: 1,
             justifyContent: "center",
@@ -16,7 +16,7 @@ export default function Index() {
         >
           <ItemsInput />
           <ItemsInFlatList />
-        </View>
+        </ScrollView>
       </TextProvider>
     </>
   );
