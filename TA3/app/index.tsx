@@ -4,6 +4,10 @@ import TextProvider from "@/components/TextProvider";
 import { Text, View } from "react-native";
 
 export default function Index() {
+
+
+  //IS scrolling properly, not sure why
+
   return (
     <>
       <TextProvider>
